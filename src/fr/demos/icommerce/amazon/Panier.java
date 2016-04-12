@@ -15,7 +15,7 @@ public class Panier {
 			this.listPanier.add(article);
 			article.decremeter();
 		} else
-			throw new PanierException("Il n'y a plus d'articl en stock");
+			throw new PanierException("Il n'y a plus d'article en stock");
 	}
 
 	public void retirerArticle(Article article) throws PanierException {
